@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
                                 <p data-animation="fadeInLeft" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
                                 {/*<!-- Hero-btn -->*/}
                                 <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                    <a href="industries.html" class="btn hero-btn">Contact Us</a>
+                                    <Link to="/contact" class="btn hero-btn">Contact Us</Link>
                                 </div>
                             </div>
                         </div>
@@ -26,16 +27,16 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center" style={{backgroundImage:"url(assets/img/hero/h1_hero.png)"}}>
+            {/*<div class="single-slider slider-height d-flex align-items-center" style={{backgroundImage:"url(assets/img/hero/h1_hero.png)"}}>
                 <div class="container">
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-7 col-md-9 ">
                             <div class="hero__caption">
                                 <h1 data-animation="fadeInLeft" data-delay=".4s">We Collect<br/> High Quality Leads</h1>
                                 <p data-animation="fadeInLeft" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
-                                {/*<!-- Hero-btn -->*/}
+                                {/*<!-- Hero-btn -->
                                 <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                    <a href="industries.html" class="btn hero-btn">Contact Us</a>
+                                    <Link to="/contact" class="btn hero-btn">Contact Us</Link>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +47,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 {/*<!-- Slider Area End--> 
@@ -121,7 +122,7 @@ function Home() {
                 <div className="we-create-cap">
                     <h3>We Create a Steps to Build a Successful Digital Product</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis orem ipsum dolor sit amet, consectetur adipiscing.</p>
-                    <a href="#" className="btn">Contact Us</a>
+                    <Link to="/contact" className="btn">Contact Us</Link>
                 </div>
             </div>
         </div>
@@ -439,7 +440,7 @@ function Home() {
                 </div>
                 <div className="col-xl-5 col-lg-3 col-md-12">
                    <div className="wantToWork-btn f-right">
-                        <a href="contact.html" className="btn btn-ans">Contact Us</a>
+                        <Link to="/contact" className="btn btn-ans">Contact Us</Link>
                    </div>
                 </div>
             </div>
