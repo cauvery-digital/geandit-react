@@ -1,4 +1,5 @@
-Import { findDOMNode} from 'react-dom';
+import { findDOMNode} from 'react-dom';
+
 import './App.css';
 import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
 import Preloader from './components/Preloader';
