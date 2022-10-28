@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Services() {
   return (
@@ -189,7 +190,7 @@ function Services() {
                         </div>
                         <div className="col-xl-5 col-lg-3 col-md-12">
                             <div className="wantToWork-btn f-right">
-                                <a href="#" className="btn btn-ans">Contact Us</a>
+                            <Link to="/contact" className="btn btn-ans">Contact Us</Link>
                             </div>
                         </div>
                     </div>
