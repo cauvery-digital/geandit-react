@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -20,7 +21,7 @@ function About() {
                                     <p data-animation="fadeInRight" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
                                     {/* <!-- Hero-btn --> */}
                                     <div className="hero__btn" data-animation="fadeInRight" data-delay=".8s">
-                                        <a href="industries.html" className="btn hero-btn">Contact Us</a>
+                                        <Link to="/contact" className="btn hero-btn">Contact Us</Link>
                                     </div>
                                 </div>
                             </div>
@@ -28,7 +29,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                 <div className="single-slider slider-height slider-height2 d-flex align-items-center">
+                {/*<div className="single-slider slider-height slider-height2 d-flex align-items-center">
                     <div className="container">
                         <div className="row d-flex align-items-center">
                             <div className="col-lg-5 d-none d-xl-block">
@@ -40,7 +41,7 @@ function About() {
                                 <div className="hero__caption hero__caption2">
                                     <h1 data-animation="fadeInRight" data-delay=".4s">We Collect<br/> High Quality Leads</h1>
                                     <p data-animation="fadeInRight" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
-                                    {/* <!-- Hero-btn --> */}
+                                    {/* <!-- Hero-btn --> 
                                     <div className="hero__btn" data-animation="fadeInRight" data-delay=".8s">
                                         <a href="industries.html" className="btn hero-btn">Contact Us</a>
                                     </div>
@@ -49,7 +50,7 @@ function About() {
                             
                         </div>
                     </div>
-                </div>
+                </div>*/}
             </div>
             {/* <!-- about shape --> */}
             <div className="about-shape">
@@ -310,7 +311,7 @@ function About() {
                         </div>
                         <div className="col-xl-5 col-lg-3 col-md-12">
                            <div className="wantToWork-btn f-right">
-                                <a href="contat.html" className="btn btn-ans">Contact Us</a>
+                                <Link to="/contact" className="btn btn-ans">Contact Us</Link>
                            </div>
                         </div>
                     </div>
