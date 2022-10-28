@@ -20,7 +20,6 @@ import Pricing from './pages/Pricing';
 function App() {
   return (
       <>
-      <Preloader/>
       <Router>
       <Navbar />
       <Routes>
